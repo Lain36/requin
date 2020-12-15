@@ -1,0 +1,97 @@
+/*header*/
+header
+{
+ height: 120px ;
+}
+
+ nav
+{
+     float: right;
+     letter-spacing: 5px;
+     height: 120px;
+
+
+}
+ul
+{
+    liste-style: none;
+}
+
+div ul li
+{
+  display: inline-block;
+}
+div ul li a
+{
+    text-transforme:  uppercase;
+    font-weight: bold;
+    color : black;
+    margin-right: 20px;
+
+}
+
+ .navbar
+ {
+    background-color: crimson;
+
+     width: 1500px;
+     margin-right: 0;
+     margin-left: 0;
+ }
+
+div div h1
+{
+    color: #ff0303;
+    text-align: center;
+    padding: 140px 0 40px 0;
+}
+/*géneral*/
+body
+{
+    background-color: #ffffff;
+}
+
+.wrapper
+{
+  width: 940px ;
+  margin-top: 0px ;
+  pading: 0 10px;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+/* accueil*/
+
+#accueil
+{
+  background: url('img/img.png') center;
+  height: 500px;
+  /*padding-top:500px;*/
+  /*margin-top: 100px;*/
+}
+div button
+{
+    text-align: center;
+}
+section div div div
+{
+    width: 1800px;
+}
+#111
+{
+    width: 1800px;
+    height: 600px;
+}
+#idXXX
+{
+    margin-left: 10px ;
+    margin-top: 30px;
+}
+#texte1
+{
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+}
