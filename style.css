@@ -7,7 +7,7 @@ header
  nav
 {
      float: right;
-     letter-spacing: 5px;
+     letter-spacing: 3px;
      height: 120px;
 
 
@@ -25,7 +25,7 @@ div ul li a
 {
     text-transforme:  uppercase;
     font-weight: bold;
-    color : black;
+
     margin-right: 20px;
 
 }
@@ -48,7 +48,8 @@ div div h1
 /*géneral*/
 body
 {
-    background-color: #ffffff;
+    background-color: #045262;
+   /* font-family: lato sans-serif;*/
 }
 
 .wrapper
@@ -67,7 +68,8 @@ img
 #accueil
 {
   background: url('img/img.png') center;
-  height: 500px;
+  height: 400px;
+
   /*padding-top:500px;*/
   /*margin-top: 100px;*/
 }
@@ -91,7 +93,159 @@ section div div div
 }
 #texte1
 {
-    float: right;
-    text-align: center;
+
     margin-top: 30px;
+}
+div div div div p
+{
+    color: aliceblue;
+}
+div div div div h1
+{
+    color: aliceblue;
+}
+/*contact*/
+.divider
+{
+    width: 100px;
+    height: 2px;
+    background-color: #ff0303;
+    margin: 60px auto;
+
+}
+.heading
+{
+  text-align: center;
+}
+.heading h2
+{
+   text-transform: uppercase;
+   font-weight: bold;
+}
+#XXXcontact
+{
+    font-size: 20px;
+    padding: 40px;
+    border-radius: 10px;
+
+
+}
+.form-control
+{
+
+
+}
+.comments
+{
+  font-style: italic;
+  font-size: 18px;
+  color: #ff0303;
+  height: 25px;
+}
+#button1
+{
+    margin: 40px auto 0px;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    transition: all 0.3s ease-in 0s;
+}
+#button1:hover
+{
+    background: cadetblue;
+    border-color: blue;
+}
+.thank-you
+{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*info*/
+
+#carder
+{
+    margin-top: 50px;
+    padding: 10px;
+}
+#divinfo
+{
+margin-left: 10px;
+}
+#intro
+{
+    margin-top: 80px;
+    text-align: center;
+    padding: 30px;
+
+}
+#dinfo
+{
+    text-align: center;
+    margin-top: 50px;
+}
+#buinfo
+{
+    font-weight: bold;
+    transition: all 0.3s ease-in 0s;
+
+}
+#buinfo:hover
+{
+    background-color: #045162;
+}
+#conclusion1
+{
+ font-size: small;
+}
+#paradion
+{
+    margin-top: 17px;
+}
+#defton
+{
+      transition: all 0.3s ease-in 0s;
+}
+#defton:hover
+{
+    background-color: #045162;
+    border-color: blue;
+}
+#consétype
+{
+    text-align: center;
+    margin-top: 65px;
+}
+/*footer*/
+#foot
+{
+    height: 600px;
+    color: #0f6dc1;
+    text-align: center;
+    margin-top: 350px;
+
+}
+#cli
+{
+    padding: 30px;
+}
+#lignemortel
+{
+    width: 300px;
+    height: 2px;
+    margin: 60px auto;
+
+}
+#boufont
+{
+     width: 300px;
+    margin-top: 50px;
+}
+#bodycard
+{
+    text-align: left;
+    display: inline-block;
+    letter-spacing: 5px;
 }
